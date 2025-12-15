@@ -6,7 +6,8 @@ A complete machine learning–based project that detects fraudulent transactions
 
 ## Objective
 
-Financial fraud poses a significant risk to digital payment systems and financial institutions. The objective of this project is to **build an efficient machine learning model** that can accurately identify fraudulent transactions based on historical transaction data.
+Financial fraud poses a significant risk to digital payment systems and financial institutions. 
+The objective of this project is to **build an efficient machine learning model** that can accurately identify fraudulent transactions based on historical transaction data.
 
 This project focuses on:
 - Identifying patterns associated with fraudulent behavior  
