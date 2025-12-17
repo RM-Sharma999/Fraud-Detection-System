@@ -17,3 +17,12 @@ This project focuses on:
 
 ---
 
+## Dataset Summary
+
+The dataset consists of transaction-level records where each observation represents a single transaction. The target variable indicates whether the transaction is **fraudulent (1)** or **legitimate (0)**.
+
+Key characteristics:
+- Highly imbalanced dataset  
+- Numerical transaction-related features  
+- Binary classification target
+
