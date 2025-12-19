@@ -109,11 +109,9 @@ Basic data preparation was carried out to ensure the dataset was ready for machi
 
 ## Model Training, Evaluation & Optimization
 
-### Model Training & Evaluation
-
 Multiple classification models were trained and evaluated to identify the most effective approach for fraud detection.
 
-#### Baseline Model Comparison
+### Baseline Model Comparison
 
 These models were evaluated using **precision, recall, and F1-score**, which are more appropriate than accuracy for imbalanced datasets.
 
@@ -127,7 +125,7 @@ Based on this comparison, **XGBoost** was selected for further analysis.
 
 ---
 
-#### XGBoost Model Evaluation
+### XGBoost Model Evaluation
 
 The XGBoost classifier demonstrated strong performance on the test data:
 - **Accuracy:** ~1.00  
