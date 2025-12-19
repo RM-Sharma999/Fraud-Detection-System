@@ -148,6 +148,7 @@ These results indicate that XGBoost is well-suited for detecting rare fraudulent
 
 <img width="546" height="541" alt="image" src="https://github.com/user-attachments/assets/2a7c9c5c-66d6-408a-ad88-54e3fefd903c" />
 
+---
 
 ### Threshold Tuning
 - Instead of using the default probability threshold (0.5), custom thresholds were tested.
@@ -155,5 +156,8 @@ These results indicate that XGBoost is well-suited for detecting rare fraudulent
 
 <img width="546" height="541" alt="image" src="https://github.com/user-attachments/assets/b8073101-6269-42cc-804a-048f8e06159b" />
 
+---
 
 These steps ensure that the final model is both accurate and practical for real-world fraud detection.
+
+---
