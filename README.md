@@ -136,7 +136,7 @@ The confusion matrix shows that the model correctly identifies most fraudulent t
 
 <img width="546" height="541" alt="image" src="https://github.com/user-attachments/assets/e5b02b61-b6fb-43dc-85b6-08127f9b568f" />
 
-These results indicate that **XGBoost** is well-suited for detecting rare fraudulent transactions in highly imbalanced datasets.
+These results indicate that **XGBoost** is well-suited for detecting rare fraudulent transactions in **highly imbalanced datasets**.
 
 ---
 
