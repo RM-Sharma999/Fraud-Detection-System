@@ -130,13 +130,11 @@ Based on this comparison, **XGBoost** was selected for further analysis.
 The XGBoost classifier demonstrated strong performance on the test data:
 - **Accuracy:** ~1.00  
 - **Precision:** ~0.78  
-- **Recall:** ~0.99  
-
-The confusion matrix shows that the model correctly identifies most fraudulent transactions while maintaining a low number of false negatives, which is critical for fraud detection systems.
+- **Recall:** ~0.99
 
 <img width="546" height="541" alt="image" src="https://github.com/user-attachments/assets/e5b02b61-b6fb-43dc-85b6-08127f9b568f" />
 
-These results indicate that XGBoost is well-suited for detecting rare fraudulent transactions in highly imbalanced datasets.
+The confusion matrix shows that the model correctly identifies most fraudulent transactions while maintaining a low number of false negatives, which is critical for fraud detection systems. These results indicate that XGBoost is well-suited for detecting rare fraudulent transactions in highly imbalanced datasets.
 
 ---
 
