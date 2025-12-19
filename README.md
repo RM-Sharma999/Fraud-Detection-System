@@ -110,14 +110,37 @@ Basic data preparation was carried out to ensure the dataset was ready for machi
 ## Model Training, Evaluation & Optimization
 
 ### Model Training & Evaluation
-- Classification models were trained using preprocessed transaction data.
-- Performance was evaluated using **precision, recall, F1-score, and confusion matrix**, which are more suitable for imbalanced datasets than accuracy.
+
+Multiple classification models were trained and evaluated to identify the most effective approach for fraud detection.
+
+#### Baseline Model Comparison
+
+These models were evaluated using **precision, recall, and F1-score**, which are more appropriate than accuracy for imbalanced datasets.
+
+- **Logistic Regression** achieved very high recall but extremely low precision, resulting in poor overall performance.
+- **Random Forest** showed a balanced improvement across precision, recall, and F1-score.
+- **XGBoost** delivered the strongest overall performance, with high recall and a better precision–recall balance compared to other models.
+
+Based on this comparison, **XGBoost** was selected for further analysis.
 
 <img width="784" height="584" alt="image" src="https://github.com/user-attachments/assets/e023c802-84b5-45dc-b0fc-acf1f03fb029" />
 
+---
+
+#### XGBoost Model Evaluation
+
+The XGBoost classifier demonstrated strong performance on the test data:
+- **Accuracy:** ~1.00  
+- **Precision:** ~0.78  
+- **Recall:** ~0.99  
+
+The confusion matrix shows that the model correctly identifies most fraudulent transactions while maintaining a low number of false negatives, which is critical for fraud detection systems.
+
+These results indicate that XGBoost is well-suited for detecting rare fraudulent transactions in highly imbalanced datasets.
+
 <img width="546" height="541" alt="image" src="https://github.com/user-attachments/assets/e5b02b61-b6fb-43dc-85b6-08127f9b568f" />
 
-
+---
 
 ### Model Calibration
 - Probability calibration was applied to improve the reliability of predicted probabilities.
