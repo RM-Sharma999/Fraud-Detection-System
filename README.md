@@ -103,4 +103,22 @@ This suggests abnormal balance behavior and inconsistencies commonly associated 
 
 ## Data Preprocessing & Feature Engineering
 
-After completing exploratory data analysis, the dataset was prepared for modeling through several preprocessing and feature engineering steps to improve model performance and reliability.
+Basic data preparation was carried out to ensure the dataset was ready for machine learning. Along with minimal preprocessing, simple feature engineering was applied to better represent transaction behavior, while keeping the original structure of the data intact for effective model training and evaluation.
+
+---
+
+## Model Training, Evaluation & Optimization
+
+### Model Training & Evaluation
+- Classification models were trained using preprocessed transaction data.
+- Performance was evaluated using **precision, recall, F1-score, and confusion matrix**, which are more suitable for imbalanced datasets than accuracy.
+
+### Model Calibration
+- Probability calibration was applied to improve the reliability of predicted probabilities.
+- Calibrated models provide better control over decision-making in fraud detection scenarios.
+
+### Threshold Tuning
+- Instead of using the default probability threshold (0.5), custom thresholds were tested.
+- Threshold tuning helped improve the balance between **fraud detection (recall)** and **false positives (precision)**.
+
+These steps ensure that the final model is both accurate and practical for real-world fraud detection.
