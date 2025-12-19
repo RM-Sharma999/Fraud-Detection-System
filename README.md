@@ -50,6 +50,8 @@ Exploratory Data Analysis was conducted to understand transaction behavior, frau
 
 This confirms a **highly imbalanced classification problem**, requiring careful model evaluation using precision, recall, and threshold tuning rather than accuracy alone.
 
+<img width="969" height="502" alt="image" src="https://github.com/user-attachments/assets/781229c1-3f20-4509-8ef5-d703ffddf4a3" />
+
 ---
 
 ### Fraud Percentage by Transaction Type
@@ -59,6 +61,8 @@ This confirms a **highly imbalanced classification problem**, requiring careful 
 - All other transaction types have nearly **0% fraud**
 
 This insight helps the model focus on **high-risk transaction categories**.
+
+<img width="856" height="456" alt="image" src="https://github.com/user-attachments/assets/92c05e14-56d7-402a-b391-78a8f3e0fc2c" />
 
 ---
 
@@ -70,6 +74,8 @@ This insight helps the model focus on **high-risk transaction categories**.
 
 This highlights **transaction amount** as an important feature for fraud detection.
 
+<img width="734" height="479" alt="image" src="https://github.com/user-attachments/assets/b690a7bb-88df-4eef-8c99-79b34a8d3e44" />
+
 ---
 
 ### Fraud Cases by Transaction Type
@@ -78,6 +84,8 @@ This highlights **transaction amount** as an important feature for fraud detecti
 - **CASH_OUT** transactions show a higher number of fraud cases compared to **TRANSFER** transactions.
 
 This highlights the concentration of fraudulent activity in specific transaction types.
+
+<img width="700" height="456" alt="image" src="https://github.com/user-attachments/assets/16483adc-96af-4ec9-ae05-2e5116346d84" />
 
 ---
 
@@ -88,5 +96,7 @@ A significant number of fraudulent transactions occur when the **sender’s acco
 - **CASH_OUT**
 
 This suggests abnormal balance behavior and inconsistencies commonly associated with fraudulent activity.
+
+<img width="715" height="456" alt="image" src="https://github.com/user-attachments/assets/0d6f61e9-86f1-4394-95eb-477ffb64fe33" />
 
 ---
