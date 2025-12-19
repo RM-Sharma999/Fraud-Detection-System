@@ -54,8 +54,8 @@ This confirms a **highly imbalanced classification problem**, requiring careful 
 
 ### Fraud Percentage by Transaction Type
 
-- **TRANSFER transactions** have the **highest fraud percentage**
-- **CASH_OUT transactions** also show a significant fraud rate
+- **TRANSFER** transactions have the **highest fraud percentage**
+- **CASH_OUT** transactions also show a significant fraud rate
 - All other transaction types have nearly **0% fraud**
 
 This insight helps the model focus on **high-risk transaction categories**.
