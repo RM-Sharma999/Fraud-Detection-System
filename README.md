@@ -119,9 +119,9 @@ These models were evaluated using **precision, recall, and F1-score**, which are
 - **Random Forest** showed a balanced improvement across precision, recall, and F1-score.
 - **XGBoost** delivered the strongest overall performance, with high recall and a better precision–recall balance compared to other models.
 
-Based on this comparison, **XGBoost** was selected for further analysis.
-
 <img width="784" height="584" alt="image" src="https://github.com/user-attachments/assets/e023c802-84b5-45dc-b0fc-acf1f03fb029" />
+
+Based on this comparison, **XGBoost** was selected for further analysis.
 
 ---
 
