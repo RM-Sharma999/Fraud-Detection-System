@@ -40,3 +40,53 @@ The dataset contains transaction-level financial records used to identify fraudu
 ---
 
 ## Exploratory Data Analysis
+
+Exploratory Data Analysis was conducted to understand transaction behavior, fraud patterns, and class imbalance in the dataset.
+
+### Class Imbalance
+
+- Fraudulent transactions account for **~0.13%** of the total data.
+- Non-fraud transactions dominate the dataset (**~99.87%**).
+
+This confirms a **highly imbalanced classification problem**, requiring careful model evaluation using precision, recall, and threshold tuning rather than accuracy alone.
+
+---
+
+### Fraud Percentage by Transaction Type
+
+- **TRANSFER transactions** have the **highest fraud percentage**
+- **CASH_OUT transactions** also show a significant fraud rate
+- All other transaction types have nearly **0% fraud**
+
+This insight helps the model focus on **high-risk transaction categories**.
+
+---
+
+### Transaction Amount vs Fraud Status
+
+- Fraudulent transactions generally involve **higher transaction amounts**
+- Fraud cases show a **higher median and wider spread** compared to non-fraud cases
+- Legitimate transactions tend to cluster around lower amounts
+
+This highlights **transaction amount** as an important feature for fraud detection.
+
+---
+
+### Fraud Cases by Transaction Type
+
+- Fraud cases occur primarily in **TRANSFER** and **CASH_OUT** transactions.
+- **CASH_OUT** transactions show a higher number of fraud cases compared to **TRANSFER** transactions.
+
+This highlights the concentration of fraudulent activity in specific transaction types.
+
+---
+
+### Zero Sender Balance in Fraudulent Transactions
+
+A significant number of fraudulent transactions occur when the **sender’s account balance before the transaction is zero**, particularly in:
+- **TRANSFER**
+- **CASH_OUT**
+
+This suggests abnormal balance behavior and inconsistencies commonly associated with fraudulent activity.
+
+---
