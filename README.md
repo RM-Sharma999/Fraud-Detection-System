@@ -113,6 +113,12 @@ Basic data preparation was carried out to ensure the dataset was ready for machi
 - Classification models were trained using preprocessed transaction data.
 - Performance was evaluated using **precision, recall, F1-score, and confusion matrix**, which are more suitable for imbalanced datasets than accuracy.
 
+<img width="784" height="584" alt="image" src="https://github.com/user-attachments/assets/e023c802-84b5-45dc-b0fc-acf1f03fb029" />
+
+<img width="546" height="541" alt="image" src="https://github.com/user-attachments/assets/e5b02b61-b6fb-43dc-85b6-08127f9b568f" />
+
+
+
 ### Model Calibration
 - Probability calibration was applied to improve the reliability of predicted probabilities.
 - Calibrated models provide better control over decision-making in fraud detection scenarios.
