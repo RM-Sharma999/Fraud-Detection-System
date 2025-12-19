@@ -103,7 +103,7 @@ This suggests abnormal balance behavior and inconsistencies commonly associated 
 
 ## Data Preprocessing & Feature Engineering
 
-Basic data preparation was carried out to ensure the dataset was ready for machine learning. Along with minimal preprocessing, simple feature engineering was applied to better represent transaction behavior, while keeping the original structure of the data intact for effective model training and evaluation.
+Basic data preparation was carried out to ensure the dataset was ready for machine learning. Along with minimal preprocessing, simple feature engineering was applied to better represent transaction behavior, while keeping the original structure of the data intact for effective modelling
 
 ---
 
