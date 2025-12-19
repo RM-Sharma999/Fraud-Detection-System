@@ -100,3 +100,7 @@ This suggests abnormal balance behavior and inconsistencies commonly associated 
 <img width="715" height="456" alt="image" src="https://github.com/user-attachments/assets/0d6f61e9-86f1-4394-95eb-477ffb64fe33" />
 
 ---
+
+## Data Preprocessing & Feature Engineering
+
+After completing exploratory data analysis, the dataset was prepared for modeling through several preprocessing and feature engineering steps to improve model performance and reliability.
