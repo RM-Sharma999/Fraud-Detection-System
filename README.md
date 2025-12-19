@@ -111,6 +111,8 @@ Basic data preparation was carried out to ensure the dataset was ready for machi
 
 Multiple classification models were trained and evaluated to identify the most effective approach for fraud detection.
 
+Multiple models were trained and evaluated using appropriate metrics for imbalanced data, and the final model was optimized through calibration and threshold tuning.
+
 ### Baseline Model Comparison
 
 These models were evaluated using **precision, recall, and F1-score**, which are more appropriate than accuracy for imbalanced datasets.
@@ -136,7 +138,7 @@ The confusion matrix shows that the model correctly identifies most fraudulent t
 
 <img width="546" height="541" alt="image" src="https://github.com/user-attachments/assets/e5b02b61-b6fb-43dc-85b6-08127f9b568f" />
 
-These results indicate that XGBoost is well-suited for detecting rare fraudulent transactions in highly imbalanced datasets.
+These results indicate that **XGBoost** is well-suited for detecting rare fraudulent transactions in highly imbalanced datasets.
 
 ---
 
