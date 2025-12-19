@@ -111,7 +111,7 @@ Basic data preparation was carried out to ensure the dataset was ready for machi
 
 Multiple classification models were trained and evaluated to identify the most effective approach for fraud detection.
 
-Multiple models were trained and evaluated using appropriate metrics for imbalanced data, and the final model was optimized through calibration and threshold tuning.
+Multiple classification models were trained and evaluated to identify the most effective approach for fraud detection. Model performance was assessed using metrics suitable for imbalanced data, and the selected model was further optimized through calibration and threshold tuning to improve fraud detection reliability.
 
 ### Baseline Model Comparison
 
