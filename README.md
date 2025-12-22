@@ -155,3 +155,29 @@ These results indicate that **XGBoost** is well-suited for detecting rare fraudu
 <img width="546" height="541" alt="image" src="https://github.com/user-attachments/assets/b8073101-6269-42cc-804a-048f8e06159b" />
 
 ---
+
+## Technologies Used
+
+- **Programming Language:** `Python`
+- **Data Analysis:** `Pandas`, `NumPy`
+- **Visualization:** `Matplotlib`, `Seaborn`
+- **Machine Learning:** `Scikit-learn`, `XGBoost`
+- **Web Interface:** `Streamlit`
+- **Deployment Platform:** `Streamlit Web Community`
+
+---
+
+## Deployment
+
+The final model was deployed using **Streamlit** to create an intuitive web-based interface, and hosted on Streamlit Web Community for public accessibility.
+
+[Fraud Detection System Live App](https://fraud-detection-system-f9t3d5avndq6zvqvpbbkqq.streamlit.app/)
+
+---
+
+## Key Takeaways
+
+- Fraud detection is a **highly imbalanced classification problem**, requiring evaluation metrics beyond accuracy.
+- Transaction-related features such as type, amount, and balance changes are important for identifying fraud.
+- **Model calibration** and **Threshold tuning** improve fraud detection reliability.
+- **XGBoost** achieved the best balance between precision and recall in this project.
