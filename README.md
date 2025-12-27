@@ -163,13 +163,13 @@ These results indicate that **XGBoost** is well-suited for detecting rare fraudu
 - **Visualization:** `Matplotlib`, `Seaborn`
 - **Machine Learning:** `Scikit-learn`, `XGBoost`
 - **Web Interface:** `Streamlit`
-- **Deployment Platform:** `Streamlit Web Community`
+- **Deployment Platform:** `Streamlit Community Cloud`
 
 ---
 
 ## Deployment
 
-The final model was deployed using **Streamlit** to create an intuitive web-based interface, and hosted on Streamlit Web Community for public accessibility.
+The final model was deployed using **Streamlit** to create an intuitive web-based interface, and hosted on Streamlit Community Cloud for public accessibility.
 
 [Fraud Detection System Live App](https://fraud-detection-system-f9t3d5avndq6zvqvpbbkqq.streamlit.app/)
 
