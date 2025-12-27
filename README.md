@@ -169,7 +169,7 @@ These results indicate that **XGBoost** is well-suited for detecting rare fraudu
 
 ## Deployment
 
-The final model was deployed using **Streamlit** to create an intuitive web-based interface, and hosted on Streamlit Community Cloud for public accessibility.
+The final model was deployed using **Streamlit** to create an **intuitive web-based interface**, and hosted on **Streamlit Community Cloud** for public accessibility.
 
 [Fraud Detection System Live App](https://fraud-detection-system-f9t3d5avndq6zvqvpbbkqq.streamlit.app/)
 
