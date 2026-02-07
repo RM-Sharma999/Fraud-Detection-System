@@ -103,19 +103,19 @@ This suggests **abnormal balance behavior** and **inconsistencies** commonly ass
 
 ## Data Preprocessing & Feature Engineering
 
-Basic data preparation was carried out to ensure the dataset was ready for machine learning. Along with minimal preprocessing, simple feature engineering was applied to better represent transaction behavior, while keeping the original structure of the data intact for effective modelling
+Basic data preparation was carried out to ensure the dataset was ready for **machine learning**. Along with **minimal preprocessing**, simple **feature engineering** was applied to better represent **transaction behavior**, while keeping the original structure intact for **effective modeling**.
 
 ---
 
 ## Model Training, Evaluation & Optimization
 
-Multiple machine learning models were trained and evaluated using metrics suitable for imbalanced data. The best-performing model was then optimized through calibration and threshold tuning to improve fraud detection performance.
+Multiple **machine learning models** were trained and evaluated using metrics suitable for **imbalanced data**. The **best-performing model** was then optimized through **calibration and threshold tuning** to deliver more reliable predictions.
 
 ### Baseline Model Comparison
 
-These models were evaluated using **precision, recall, and F1-score**, which are more appropriate than accuracy for imbalanced datasets.
+These models were evaluated using **precision, recall, and F1-score**, which are more appropriate than accuracy for **imbalanced datasets**.
 
-- **Logistic Regression** achieved very high recall but extremely low precision, resulting in poor overall performance.
+- **Logistic Regression** achieved very high recall but **extremely low precision**, resulting in poor overall performance.
 - **Random Forest** showed a balanced improvement across precision, recall, and F1-score.
 - **XGBoost** delivered the strongest overall performance, with high recall and a better precision–recall balance compared to other models.
 
