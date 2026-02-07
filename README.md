@@ -116,7 +116,7 @@ Multiple **machine learning models** were trained and evaluated using metrics su
 These models were evaluated using **precision, recall, and F1-score**, which are more appropriate than accuracy for **imbalanced datasets**.
 
 - **Logistic Regression** achieved very high recall but **extremely low precision**, resulting in poor overall performance.
-- **Random Forest** showed a balanced improvement across precision, recall, and F1-score.
+- **Random Forest** showed a **balanced performance** across precision, recall, and F1-score.
 - **XGBoost** delivered the strongest overall performance, with high recall and a better precision–recall balance compared to other models.
 
 <img width="784" height="584" alt="image" src="https://github.com/user-attachments/assets/e023c802-84b5-45dc-b0fc-acf1f03fb029" />
