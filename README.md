@@ -117,7 +117,7 @@ These models were evaluated using **precision, recall, and F1-score**, which are
 
 - **Logistic Regression** achieved very high recall but **extremely low precision**, resulting in poor overall performance.
 - **Random Forest** showed a **balanced performance** across precision, recall, and F1-score.
-- **XGBoost** delivered the strongest overall performance, with high recall and a better precision–recall balance compared to other models.
+- **XGBoost** delivered the **strongest overall performance**, with high recall and a **better precision–recall balance** compared to other models.
 
 <img width="784" height="584" alt="image" src="https://github.com/user-attachments/assets/e023c802-84b5-45dc-b0fc-acf1f03fb029" />
 
@@ -132,17 +132,17 @@ The XGBoost classifier demonstrated strong performance on the test data:
 - **Precision:** ~0.78  
 - **Recall:** ~0.99
 
-The confusion matrix shows that the model correctly identifies most fraudulent transactions while maintaining a low number of false negatives, which is critical for fraud detection systems. 
+The **confusion matrix** shows that the model correctly identifies **most fraudulent transactions** while maintaining a **low number of false negatives**, which is critical for fraud detection systems.
 
 <img width="546" height="541" alt="image" src="https://github.com/user-attachments/assets/e5b02b61-b6fb-43dc-85b6-08127f9b568f" />
 
-These results indicate that **XGBoost** is well-suited for detecting rare fraudulent transactions in **highly imbalanced datasets**.
+These results indicate that **XGBoost** is well-suited for detecting **rare fraudulent transactions** in **highly imbalanced datasets**.
 
 ---
 
 ### Model Calibration
-- Probability calibration was applied to improve the reliability of predicted probabilities.
-- Calibrated models provide better control over decision-making in fraud detection scenarios.
+- **Probability calibration** was applied to improve the **reliability of predicted probabilities**.
+- **Calibrated models** provide **better control over decision-making** in fraud detection scenarios.
 
 <img width="546" height="541" alt="image" src="https://github.com/user-attachments/assets/2a7c9c5c-66d6-408a-ad88-54e3fefd903c" />
 
