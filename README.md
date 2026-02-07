@@ -41,14 +41,14 @@ The dataset contains **transaction-level financial records** used to identify **
 
 ## Exploratory Data Analysis
 
-Exploratory Data Analysis was conducted to understand transaction behavior, fraud patterns, and class imbalance in the dataset.
+**Exploratory Data Analysis** was conducted to understand **transaction behavior**, **fraud patterns**, and **class imbalance** in the dataset.
 
 ### Class Imbalance
 
 - Fraudulent transactions account for **~0.13%** of the total data.
 - Non-fraud transactions dominate the dataset (**~99.87%**).
 
-This confirms a **highly imbalanced classification problem**, requiring careful model evaluation using precision, recall, and threshold tuning rather than accuracy alone.
+This confirms a **highly imbalanced classification problem**, requiring careful model evaluation using **precision, recall, and threshold tuning** rather than accuracy alone.
 
 <img width="969" height="502" alt="image" src="https://github.com/user-attachments/assets/781229c1-3f20-4509-8ef5-d703ffddf4a3" />
 
@@ -56,9 +56,9 @@ This confirms a **highly imbalanced classification problem**, requiring careful 
 
 ### Fraud Percentage by Transaction Type
 
-- **TRANSFER** transactions have the **highest fraud percentage**
-- **CASH_OUT** transactions also show a significant fraud rate
-- All other transaction types have nearly **0% fraud**
+- **TRANSFER** transactions have the **highest fraud percentage**.
+- **CASH_OUT** transactions also show a **significant fraud rate**.
+- All other transaction types have nearly **0% fraud**.
 
 This insight helps the model focus on **high-risk transaction categories**.
 
@@ -68,9 +68,9 @@ This insight helps the model focus on **high-risk transaction categories**.
 
 ### Transaction Amount vs Fraud Status
 
-- Fraudulent transactions generally involve **higher transaction amounts**
-- Fraud cases show a **higher median and wider spread** compared to non-fraud cases
-- Legitimate transactions tend to cluster around lower amounts
+- Fraudulent transactions generally involve **higher transaction amounts**.
+- Fraud cases show a **higher median and wider spread** compared to non-fraud cases.
+- Legitimate transactions tend to cluster around **lower transaction amounts**.
 
 This highlights **transaction amount** as an important feature for fraud detection.
 
@@ -81,9 +81,9 @@ This highlights **transaction amount** as an important feature for fraud detecti
 ### Fraud Cases by Transaction Type
 
 - Fraud cases occur primarily in **TRANSFER** and **CASH_OUT** transactions.
-- **CASH_OUT** transactions show a higher number of fraud cases compared to **TRANSFER** transactions.
+- **CASH_OUT** transactions show a **higher number of fraud cases** compared to **TRANSFER** transactions.
 
-This highlights the concentration of fraudulent activity in specific transaction types.
+This highlights the **concentration of fraudulent activity** in specific transaction types.
 
 <img width="700" height="456" alt="image" src="https://github.com/user-attachments/assets/16483adc-96af-4ec9-ae05-2e5116346d84" />
 
@@ -95,7 +95,7 @@ A significant number of fraudulent transactions occur when the **sender’s acco
 - **TRANSFER**
 - **CASH_OUT**
 
-This suggests abnormal balance behavior and inconsistencies commonly associated with fraudulent activity.
+This suggests **abnormal balance behavior** and **inconsistencies** commonly associated with fraudulent activity.
 
 <img width="715" height="456" alt="image" src="https://github.com/user-attachments/assets/0d6f61e9-86f1-4394-95eb-477ffb64fe33" />
 
