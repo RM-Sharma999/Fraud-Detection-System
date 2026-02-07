@@ -141,6 +141,7 @@ These results indicate that **XGBoost** is well-suited for detecting **rare frau
 ---
 
 ### Model Calibration
+
 - **Probability calibration** was applied to improve the **reliability of predicted probabilities**.
 - **Calibrated models** provide **better control over decision-making** in fraud detection scenarios.
 
@@ -149,8 +150,9 @@ These results indicate that **XGBoost** is well-suited for detecting **rare frau
 ---
 
 ### Threshold Tuning
-- Instead of using the default probability threshold (0.5), custom thresholds were tested.
-- Threshold tuning helped improve the balance between **fraud detection (recall)** and **false positives (precision)**.
+
+- Instead of using the **default probability threshold (0.5)**, **custom thresholds** were tested.
+- Threshold tuning helped improve the balance between **false negatives (recall)** and **false positives (precision)**.
 
 <img width="546" height="541" alt="image" src="https://github.com/user-attachments/assets/b8073101-6269-42cc-804a-048f8e06159b" />
 
@@ -178,6 +180,6 @@ The final model was deployed using **Streamlit** to create an **intuitive web-ba
 ## Key Takeaways
 
 - Fraud detection is a **highly imbalanced classification problem**, requiring evaluation metrics beyond accuracy.
-- Transaction-related features such as type, amount, and balance changes are important for identifying fraud.
+- **Transaction-related features** such as type, amount, and balance changes are important for identifying fraud.
 - **Model calibration** and **Threshold tuning** improve fraud detection reliability.
-- **XGBoost** achieved the best balance between precision and recall in this project.
+- **XGBoost** achieved the **best balance between precision and recall** in this project.
