@@ -52,8 +52,6 @@ This confirms a **highly imbalanced classification problem**, requiring careful 
 
 <img width="969" height="502" alt="image" src="https://github.com/user-attachments/assets/781229c1-3f20-4509-8ef5-d703ffddf4a3" />
 
----
-
 ### Fraud Percentage by Transaction Type
 
 - **TRANSFER** transactions have the **highest fraud percentage**.
@@ -63,8 +61,6 @@ This confirms a **highly imbalanced classification problem**, requiring careful 
 This insight helps the model focus on **high-risk transaction categories**.
 
 <img width="856" height="456" alt="image" src="https://github.com/user-attachments/assets/92c05e14-56d7-402a-b391-78a8f3e0fc2c" />
-
----
 
 ### Transaction Amount vs Fraud Status
 
@@ -76,8 +72,6 @@ This highlights **transaction amount** as an important feature for fraud detecti
 
 <img width="734" height="479" alt="image" src="https://github.com/user-attachments/assets/b690a7bb-88df-4eef-8c99-79b34a8d3e44" />
 
----
-
 ### Fraud Cases by Transaction Type
 
 - Fraud cases occur primarily in **TRANSFER** and **CASH_OUT** transactions.
@@ -86,8 +80,6 @@ This highlights **transaction amount** as an important feature for fraud detecti
 This highlights the **concentration of fraudulent activity** in specific transaction types.
 
 <img width="700" height="456" alt="image" src="https://github.com/user-attachments/assets/16483adc-96af-4ec9-ae05-2e5116346d84" />
-
----
 
 ### Zero Sender Balance in Fraudulent Transactions
 
